@@ -19,7 +19,9 @@ namespace VerifyingFiles
                 {
                     new Jpeg(),
                     new Png(),
-                    new Mp3()
+                    new Mp3(),
+                    new Docx(),
+                    new Pdf()
                 }
                 .OrderByDescending(x => x.SignatureLength)
                 .ToList();

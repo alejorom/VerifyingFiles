@@ -11,6 +11,12 @@
     </ItemGroup>
 
     <ItemGroup>
+      <None Update="Assets\Instalación agente SCCM.docx">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Assets\jetbrainspdf.pdf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="Assets\music.mp3">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
@@ -22,6 +28,9 @@
       </None>
       <None Update="Assets\jetbrains.svg">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Assets\XSSEnvironment.pdf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
     </ItemGroup>
 

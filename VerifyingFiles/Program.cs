@@ -12,7 +12,10 @@ namespace VerifyingFiles
                 "grapes.jpg",
                 "music.mp3",
                 "pin.png",
-                "jetbrains.svg"
+                "jetbrains.svg",
+                "jetbrainspdf.pdf",
+                "XSSEnvironment.pdf",
+                "Instalación agente SCCM.docx"
             };
 
             Console.WriteLine("\nFile Verification Results\n");
@@ -23,6 +26,7 @@ namespace VerifyingFiles
                 var result = FileTypeVerifier.What(path);
                 Console.WriteLine($"{asset} is a {result.Name} ({result.Description}).");
             }
+            Console.ReadKey();
         }
     }
 }
